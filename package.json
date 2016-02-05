@@ -1,6 +1,6 @@
 {
   "name": "Boris",
-  "version": "0.1.8",
+  "version": "0.1.0",
   "description": "Server RPS",
   "author": "WD",
   "private": true,
@@ -12,7 +12,7 @@
     "start": "node app.js",
     "start-test": "export NODE_ENV=test && node app.js",
     "start-prod": "export NODE_ENV=production && node app.js",
-    "check-modules-version": "node_modules\\.bin\\npm-check"
+    "include-git-hook" : "cd ../ && cp misc/post-commit .git/hooks && chmod +x .git/hooks/post-commit"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
