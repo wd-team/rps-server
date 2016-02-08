@@ -1,6 +1,6 @@
 {
-  "name": "Boris",
-  "version": "0.1.0",
+  "name": "server",
+  "version": "1.0.0",
   "description": "Server RPS",
   "author": "WD",
   "private": true,
