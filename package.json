@@ -23,15 +23,15 @@
     "vinyl-ftp": "^0.4.5"
   },
   "dependencies": {
-    "activedirectory": "^0.7.1",
-    "body-parser": "^1.14.2",
+    "activedirectory": "^0.7.2",
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "express-validator": "^2.19.0",
+    "express-validator": "^2.19.1",
     "jsonwebtoken": "^5.5.4",
-    "moment": "^2.11.1",
+    "moment": "^2.11.2",
     "mysql": "^2.10.2",
     "request-promise": "^2.0.0",
-    "sequelize": "^3.18.0",
+    "sequelize": "^3.19.2",
     "sequelize-cli": "^2.3.1"
   }
 }
