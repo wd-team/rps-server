@@ -12,7 +12,7 @@
     "start": "node app.js",
     "start-test": "export NODE_ENV=test && node app.js",
     "start-prod": "export NODE_ENV=production && node app.js",
-    "include-git-hook": "cd ../ && cp misc/post-commit .git/hooks && chmod +x .git/hooks/post-commit"
+    "include-git-hook" : "cd ../ && cp misc/post-commit .git/hooks && chmod +x .git/hooks/post-commit"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -25,7 +25,7 @@
     "jshint-stylish": "^2.1.0",
     "map-stream": "0.0.6",
     "vinyl-ftp": "^0.4.5",
-    "date.js": "^0.2.2"
+    "date.js": "^0.3.1"
   },
   "dependencies": {
     "activedirectory": "^0.7.2",
@@ -37,7 +37,6 @@
     "mysql": "^2.10.2",
     "request-promise": "^2.0.0",
     "sequelize": "^3.19.2",
-    "sequelize-cli": "^2.3.1",
-    "socket.io": "^1.4.5"
+    "sequelize-cli": "^2.3.1"
   }
 }
