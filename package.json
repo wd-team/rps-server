@@ -37,6 +37,7 @@
     "express-validator": "^2.19.1",
     "jsonwebtoken": "^5.5.4",
     "moment": "^2.11.2",
+    "morgan": "^1.7.0",
     "mysql": "^2.10.2",
     "request-promise": "^2.0.0",
     "sequelize": "^3.19.2",
