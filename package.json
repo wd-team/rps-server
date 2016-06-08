@@ -37,9 +37,9 @@
     "express-validator": "2.20.5",
     "jsonwebtoken": "7.0.0",
     "moment": "2.13.0",
-    "mysql": "2.11.0",
+    "mysql": "2.11.1",
     "request-promise": "3.0.0",
     "sequelize": "3.23.3",
-    "sequelize-cli": "2.3.1"
+    "sequelize-cli": "2.4.0"
   }
 }
