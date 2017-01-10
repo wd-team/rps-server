@@ -36,15 +36,17 @@
     "express": "4.14.0",
     "express-validator": "2.20.8",
     "jsonwebtoken": "7.1.6",
+    "keymirror": "0.1.1",
     "moment": "2.14.1",
-    "morgan": "^1.7.0",
+    "moment-timezone": "^0.5.11",
+    "morgan": "1.7.0",
     "mysql": "2.11.1",
     "request": "2.74.0",
     "request-promise": "4.0.2",
     "sequelize": "3.23.6",
     "sequelize-cli": "2.4.0",
     "socket.io": "1.4.8",
-    "validator": "5.5.0",
-    "keymirror": "0.1.1"
+    "sugar-date": "^2.0.4",
+    "validator": "5.5.0"
   }
 }
