@@ -12,10 +12,10 @@
     "start": "node app.js",
     "start-test": "export NODE_ENV=test && node app.js",
     "start-prod": "export NODE_ENV=production && node app.js",
-    "include-git-hook": "cd ../ && cp misc/post-commit .git/hooks && chmod +x .git/hooks/post-commit"
+    "include-git-hook": "cd ../ && cp misc/post-commit .git/hooks && chmod +x .git/hooks/post-commit",
+    "postinstall": "npm i abao@0.4.0-beta.4 --save-exact"
   },
   "devDependencies": {
-    "abao": "0.4.0-beta.4",
     "chai": "3.5.0",
     "gulp": "3.9.1",
     "gulp-exec": "2.1.2",
@@ -30,6 +30,7 @@
     "vinyl-ftp": "0.5.0"
   },
   "dependencies": {
+    "abao": "0.4.0-beta.4",
     "activedirectory": "0.7.2",
     "body-parser": "1.15.2",
     "express": "4.14.0",
@@ -40,12 +41,13 @@
     "moment-timezone": "^0.5.11",
     "morgan": "1.7.0",
     "mysql": "2.11.1",
-    "request": "2.74.0",
+    "request": "2.79.0",
     "request-promise": "4.0.2",
-    "sequelize": "3.23.6",
+    "sequelize": "3.33.0",
     "sequelize-cli": "2.4.0",
     "socket.io": "1.4.8",
     "sugar-date": "^2.0.4",
+    "underscore": "1.8.2",
     "validator": "5.5.0"
   }
 }
